@@ -11,7 +11,7 @@ public class Main {
         watch.start();
         int[] array = new int[100000];
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt();
+            array[i] = random.nextInt(100000);
         }
         sort(array);
         watch.stop();
